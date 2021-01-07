@@ -11,9 +11,11 @@ a model in MMDetection. Please refer to [MMDetection](https://github.com/open-mm
 
 
 ## Test
-1. Download the pre-trained model in [Onedrive](https://westlakeu-my.sharepoint.com/:u:/g/personal/zhumingjian_westlake_edu_cn/ESmbMPHJ3SxDk6HfkwHDrqwBiVZN-fDPNSnNSj4Tq7VGOA?e=CQ8U97) and put it in the *checkpoint* folder.
+1. Download the pre-trained model in [Onedrive](https://westlakeu-my.sharepoint.com/:u:/g/personal/zhumingjian_westlake_edu_cn/ESmbMPHJ3SxDk6HfkwHDrqwBiVZN-fDPNSnNSj4Tq7VGOA?e=CQ8U97)
 
-2. Test the model with the following command.
+2. create a new folder named *checkpoint* and put the pre-trained model in it.
+
+3. Test the model with the following command.
 ```
 python tools/test.py configs/dyfpn/faster_rcnn_r50_dyfpn_1x_coco.py checkpoints/DyFPN_B_CNNGate.pth --eval bbox
 ```
