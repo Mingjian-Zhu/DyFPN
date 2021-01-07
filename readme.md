@@ -15,8 +15,7 @@ a model in MMDetection. Please refer to [MMDetection](https://github.com/open-mm
 
 2. Test the model with the following command.
 ```
-python tools/test.py configs/dyfpn/faster_rcnn_r50_dyfpn_1x_coco.py checkpoi
-nts/DyFPN_B_CNNGate.pth --eval bbox
+python tools/test.py configs/dyfpn/faster_rcnn_r50_dyfpn_1x_coco.py checkpoints/DyFPN_B_CNNGate.pth --eval bbox
 ```
 
 ## Citation
