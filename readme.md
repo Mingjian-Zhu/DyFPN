@@ -1,8 +1,7 @@
 # DyFPN
 
 ## Introduction
-Dynamic Feature Pyramid Networks for Object Detection. [arXiv](https://arxiv.or
-g/abs/2012.00779)
+Dynamic Feature Pyramid Networks for Object Detection. [arXiv](https://arxiv.org/abs/2012.00779)
 
 By Mingjian Zhu, Kai Han, Changbin Yu, Yunhe Wang
 
@@ -12,9 +11,7 @@ a model in MMDetection. Please refer to [MMDetection](https://github.com/open-mm
 
 
 ## Test
-1. Download the pre-trained model in [Onedrive](https://westlakeu-my.sharepoi
-nt.com/:u:/g/personal/zhumingjian_westlake_edu_cn/ESmbMPHJ3SxDk6Hfkw
-HDrqwBiVZN-fDPNSnNSj4Tq7VGOA?e=CQ8U97) and put it in the *checkpoint* folder.
+1. Download the pre-trained model in [Onedrive](https://westlakeu-my.sharepoint.com/:u:/g/personal/zhumingjian_westlake_edu_cn/ESmbMPHJ3SxDk6HfkwHDrqwBiVZN-fDPNSnNSj4Tq7VGOA?e=CQ8U97) and put it in the *checkpoint* folder.
 
 2. Test the model with the following command.
 ```
